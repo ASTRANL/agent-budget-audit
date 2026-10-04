@@ -203,6 +203,7 @@ Free:
 
 Paid over x402 version 2, USDC on Base, no account needed. Call without payment to receive the 402 challenge. Invalid input is answered 400 and not charged.
 
+- `https://verify.astranl.com/budget` for people, 1 EUR by card, iDEAL or Bancontact through Stripe: the same full signed report, opened on the site as soon as Stripe confirms the payment
 - `GET https://verify.astranl.com/v1/agent-budget-audit` 0.05 USDC: every finding with its fix and the incidents it was seen in, exposure arithmetic, goal check, recommended fuse settings, ed25519-signed receipt
 - `GET https://verify.astranl.com/v1/spend-fuse` 0.002 USDC: GO, CAUTION or STOP for one spend with the reason per check and a signed receipt; with `agent` and `intent_id` the service remembers the intent, so a retry after a restart or a loss of state is caught as a duplicate
 
