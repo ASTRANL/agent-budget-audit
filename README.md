@@ -195,6 +195,7 @@ Inputs: `amount_usd`, `instruction_source`, `per_action_cap_usd`, `period_budget
 
 Free:
 
+- `https://verify.astranl.com/budget` the same audit as a page for people
 - `GET https://verify.astranl.com/v1/budget/protocol` this protocol as JSON
 - `GET https://verify.astranl.com/v1/budget/preview?budget_period_usd=100&hard_cap_outside_model=no&...` verdict, score and the worst finding
 - `GET https://verify.astranl.com/v1/budget/cases` the incident catalogue with sources and confidence
